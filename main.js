@@ -5,8 +5,7 @@ const path = require('path')
 const { Employee } = require('./Employee')
 
 const employee =
-  Employee
-    .parseFromFilePath(
+  Employee.parseFromFilePath(
       path.resolve(__dirname, 'employee.json')
     )
 
